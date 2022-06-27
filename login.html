@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.js"></script>
+    <link rel="icon" href="node_modules/bootstrap-icons/icons/people.svg">
+    <link href="as.css" rel="stylesheet">
+</head>
+<style>
+    .btn-primary {
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .form-floating{
+        margin-bottom: 10px;
+    }
+    .form-signin {
+        width: 100%;
+        max-width: 330px;
+        padding: 15px;
+        background-color: #0b5ed7;
+        border-radius: 15px;
+        margin: 200px auto auto;
+        box-shadow: 10px 10px 5px;
+    }
+
+</style>
+<body>
+<main class="form-signin">
+    <form action="index.html" method="GET">
+    <div class="form-floating">
+        <input type="text" class="form-control" id="floatingInput" name="username" placeholder="Username" required="required">
+        <label for="floatingInput">Username</label>
+    </div>
+    <div class="form-floating">
+        <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" required="required">
+        <label for="floatingPassword">Password</label>
+    </div>
+    <div>
+        <input type="submit" class="btn btn-primary" value="登录">
+        <a href="register.html" class="btn btn-primary" role="button">注册</a>
+    </div>
+    </form>
+</main>
+</body>
+</html>
